@@ -1,0 +1,12 @@
+[submodule "la-flamita-admin"]
+	path = la-flamita-admin
+	url = git@github.com:InterdataUTJ/la-flamita-admin.git
+	branch = laravel-10
+[submodule "la-flamita-cliente"]
+	path = la-flamita-cliente
+	url = git@github.com:InterdataUTJ/la-flamita-cliente.git
+	branch = laravel-10
+[submodule "la-flamita-movil"]
+	path = la-flamita-movil
+	url = git@github.com:InterdataUTJ/la-flamita-movil.git
+	branch = android-kotlin
