@@ -1,0 +1,12 @@
+[submodule "la-flamita-admin"]
+	path = la-flamita-admin
+	url = git@github.com:InterdataUTJ/la-flamita-admin.git
+[submodule "la-flamita-cliente"]
+	path = la-flamita-cliente
+	url = git@github.com:InterdataUTJ/la-flamita-cliente.git
+[submodule "la-flamita-movil"]
+	path = la-flamita-movil
+	url = git@github.com:InterdataUTJ/la-flamita-movil.git
+[submodule "la-flamita-iot"]
+	path = la-flamita-iot
+	url = git@github.com:InterdataUTJ/la-flamita-iot.git
