@@ -10,3 +10,6 @@
 	path = la-flamita-movil
 	url = git@github.com:InterdataUTJ/la-flamita-movil.git
 	branch = android-kotlin
+[submodule "la-flamita-iot"]
+	path = la-flamita-iot
+	url = git@github.com:InterdataUTJ/la-flamita-iot.git
