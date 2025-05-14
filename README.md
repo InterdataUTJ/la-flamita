@@ -21,11 +21,7 @@ Desarrollo Web de [`Express`](https://expressjs.com/) y [`React`](https://react.
 
 Este proyecto esta compuesto por 4 submodulos que cuentan con desarrollos diferentes para cubrir distintos requerimientos del cliente.
 
-
-
-
 ## Submodulos 🧩
-
 
 ### [`la-flamita-admin`](https://github.com/InterdataUTJ/la-flamita-admin/) 🌐
 
@@ -33,6 +29,13 @@ En este submodulo se encuentra todo el desarrollo de la plataforma web, tanto la
 
 Esta desarrollado utilizando `Express`, además integra una base de datos `MongoDB`. Para desarrollar las interfaces de usuario empleados [`tailwindcss`](https://tailwindcss.com/) y [`flowbite`](https://flowbite.com/) como libreria de componentes.
 
+#### Capturas
+
+<img src="./docs/web/panel.png" width="450">
+<img src="./docs/web/user.png" width="450">
+<img src="./docs/web/list.png" width="450">
+<img src="./docs/web/form.png" width="450">
+<img src="./docs/web/details.png" width="450">
 
 ### [`la-flamita-cliente`](https://github.com/InterdataUTJ/la-flamita-cleinte/) 🌐
 
@@ -42,8 +45,6 @@ Esta desarrollado utilizando `Express`, además integra una base de datos `Mongo
 
 A diferencia de la sección administrativa, esta es meramente para uso de clientes, por lo que permite listar productos y realizar compras usando paypal.
 
-
-
 ### [`la-flamita-iot`](https://github.com/InterdataUTJ/la-flamita-iot/) 💡
 
 Este submodulo integra el desarrollo realizado para IoT, el cual consta de un sensor de temperatura que cada cierto tiempo toma una lectura y la envia a la `API` desarrollada en el submodulo [`la-flamita-admin`](https://github.com/InterdataUTJ/la-flamita-admin/), a pesar de que esta pensado para integrarse con este proyecto, la herramienta de configuración permite configurar el sensor para cualquier `API` que acepte los datos en el formato de envio del sensor.
@@ -51,8 +52,6 @@ Este submodulo integra el desarrollo realizado para IoT, el cual consta de un se
 El sensor esta deasrrollado utilizando un `ESP32` con el `Arduino IDE`, además, utilizamos en sensor `DHT11` para la toma de datos del ambiente, y utilizamos el propio hardware del `ESP32` para enviarlos por `WiFi`.
 
 Adicionalmente se desarrollo otro modelo que emplea un sensor de luz digital y se comunica con el modelo `DHT11` mediante `BLE`.
-
-
 
 ### [`la-flamita-movil`](https://github.com/InterdataUTJ/la-flamita-movil/) 🤖
 
@@ -62,8 +61,14 @@ Esta app permite registrar nuevos dispositivos, consultar la información de los
 
 Para el uso de datos de IoT y perfil de empleado utiliza la API desarrollada en el submodulo [`la-flamita-admin`](https://github.com/InterdataUTJ/la-flamita-admin/).
 
+#### Capturas
 
-
+<img src="./docs/mobile/login.png" width="230">
+<img src="./docs/mobile/devices.png" width="230">
+<img src="./docs/mobile/new-device.png" width="230">
+<img src="./docs/mobile/user.png" width="230">
+<img src="./docs/mobile/sensor.png" width="230">
+<img src="./docs/mobile/actuador.png" width="230">
 
 ## Equipo 👥
 
@@ -73,6 +78,6 @@ Este proyecto esta desarrollado por el equipo escolar `Interdata`, miembros de l
 
 1. Cortés Gutiérrez Ismael ([`IsmaCortGtz`](https://github.com/IsmaCortGtz))
 2. Fernandez Alonso Luis Geronimo ([`Geronimo1231`](https://github.com/Geronimo1231))
-4. Gomez Magaña Ivan Martin ([`IvanGn`](https://github.com/IvanGn))
-5. Lopez Maldonado Brian Alberto ([`Briansixo`](https://github.com/Briansixo))
-6. Zepeda Jimenez Francisco Javier
+3. Gomez Magaña Ivan Martin ([`IvanGn`](https://github.com/IvanGn))
+4. Lopez Maldonado Brian Alberto ([`Briansixo`](https://github.com/Briansixo))
+5. Zepeda Jimenez Francisco Javier
