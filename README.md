@@ -31,13 +31,13 @@ Esta desarrollado utilizando `Express`, además integra una base de datos `Mongo
 
 #### Capturas
 
-<img src="./docs/web/panel.png" width="450">
-<img src="./docs/web/user.png" width="450">
-<img src="./docs/web/list.png" width="450">
-<img src="./docs/web/form.png" width="450">
-<img src="./docs/web/details.png" width="450">
+<img src="./docs/web/panel.png" width="400">
+<img src="./docs/web/user.png" width="400">
+<img src="./docs/web/list.png" width="400">
+<img src="./docs/web/form.png" width="400">
+<img src="./docs/web/details.png" width="400">
 
-### [`la-flamita-cliente`](https://github.com/InterdataUTJ/la-flamita-cleinte/) 🌐
+### [`la-flamita-cliente`](https://github.com/InterdataUTJ/la-flamita-cliente/) 🌐
 
 En este submodulo se encuentra todo el desarrollo de la plataforma web, tanto la `API` como las vistas para acceder a la infraestructura del cliente mediante el navegador.
 
